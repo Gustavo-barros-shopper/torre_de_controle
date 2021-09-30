@@ -1,0 +1,74 @@
+@import 'bootstrap.scss';
+@import 'style.scss';
+
+@import 'themify.scss';
+@import 'whether-icon/whether-icon';
+
+
+@import "flag-icon/flag-icon-base";
+@import "flag-icon/flag-icon-more";
+@import "flag-icon/flag-icon-list";
+
+@import 'icoicon/icons';
+@import 'font-awesome.scss';
+
+@import 'chartist/chartist-settings';
+@import 'chartist/chartist';
+
+body {
+  display: flex;
+  flex: 1 1 auto;
+  flex-grow: 1;
+  height: 100vh;
+  #root,
+  .App,
+  .App > div,
+  .page-wrapper,
+  .page-wrapper .page-body-wrapper,
+  .page-wrapper .page-body-wrapper .page-body {
+    display: flex;
+    flex: 1 1 auto;
+    flex-grow: 1;
+  }
+  .page-wrapper {
+    flex-direction: column;
+    flex-basis: 100% !important;
+    .page-body-wrapper {
+      flex-direction: column;
+      .page-body {
+        flex-direction: column;
+        min-height: unset;
+        margin-top: 0;
+        padding-top: 80px;
+      }
+      &.without-header {
+        .page-body {
+          padding-top: 0;
+          min-height: unset;
+        }
+      }
+    }
+  }
+}
+.page-wrapper {
+  .page-body-wrapper {
+    &.sidebar-hover {
+      .compactLogo {
+        a {
+          float: right;
+          transform: translate(-6px) !important;
+          width: 42px;
+          display: block;
+          overflow: hidden;
+        }
+      }
+      .page-sidebar:hover {
+        .compactLogo {
+          a {
+            width: auto;
+          }
+        }
+      }
+    }
+  }
+}

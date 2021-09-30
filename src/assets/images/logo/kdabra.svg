@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0beta2 (unknown)"
+   height="45"
+   width="170"
+   sodipodi:docname="kdabra.svg"
+   version="1.1"
+   viewBox="0 0 170 45"
+   data-name="Layer 1"
+   id="Layer_1">
+  <metadata
+     id="metadata37">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Ícone Kdabra</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     inkscape:current-layer="Layer_1"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:cy="50.555"
+     inkscape:cx="74.022707"
+     inkscape:zoom="1.5941054"
+     showgrid="false"
+     id="namedview35"
+     inkscape:window-height="1027"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     inkscape:document-rotation="0"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1{fill:#2da77b;}.cls-2{fill:#1a1934;}</style>
+  </defs>
+  <title
+     id="title6">Ícone Kdabra</title>
+  <g
+     transform="matrix(0.53073512,0,0,0.53073512,-8.6289108,-4.1247585)"
+     id="g875">
+    <circle
+       class="cls-1"
+       cx="68.839996"
+       cy="21.549999"
+       r="3.03"
+       id="circle8" />
+    <circle
+       class="cls-1"
+       cx="52.09"
+       cy="24.190001"
+       r="2.6400001"
+       id="circle10" />
+    <circle
+       class="cls-1"
+       cx="59.639999"
+       cy="17.469999"
+       r="1.71"
+       id="circle12" />
+    <circle
+       class="cls-1"
+       cx="56.439999"
+       cy="11.36"
+       r="1.71"
+       id="circle14" />
+    <circle
+       class="cls-1"
+       cx="64.650002"
+       cy="10.49"
+       r="1.16"
+       id="circle16" />
+    <path
+       inkscape:connector-curvature="0"
+       class="cls-2"
+       d="M 86.52,45.73 A 19.46,19.46 0 0 0 81.1,32.46 4,4 0 0 0 78.82,25.18 H 42.44 a 4,4 0 0 0 -2.28,7.28 19.46,19.46 0 0 0 -5.42,13.27 c 0,6.6 3.56,12.51 9.15,16.48 a 3.71,3.71 0 0 0 5.51,4.95 3.62,3.62 0 0 0 0.92,-1.59 30.4,30.4 0 0 0 21.15,-0.2 3.71,3.71 0 0 0 6.25,1.79 3.71,3.71 0 0 0 0,-5.22 c 5.4,-3.94 8.8,-9.76 8.8,-16.21 z"
+       id="path18" />
+    <path
+       inkscape:connector-curvature="0"
+       class="cls-1"
+       d="m 95.62,67.76 v 0 a 3.85,3.85 0 0 0 -5.38,0.77 C 89.55,69.46 79.49,83.3 62.1,83.3 41.77,83.3 24.64,68.12 23.9,47.79 a 3.822751,3.822751 0 0 0 -7.64,0.29 c 0.33,9 4.09,23.94 17.76,34.07 A 43.07,43.07 0 0 0 60.55,91 C 81.22,90.55 91.78,79.26 96.37,73.11 a 3.87,3.87 0 0 0 -0.75,-5.35 z"
+       id="path20" />
+    <path
+       inkscape:connector-curvature="0"
+       class="cls-2"
+       d="M 113.72,25 H 119 v 20.4 h 0.41 L 139.33,25 h 11.56 l -22.5,22.24 24,25.91 h -12 L 119.48,49.5 H 119 v 23.67 h -5.28 a 3.3,3.3 0 0 1 -3.29,-3.3 V 28.31 A 3.3,3.3 0 0 1 113.72,25 Z"
+       id="path22" />
+    <path
+       inkscape:connector-curvature="0"
+       class="cls-2"
+       d="m 183.5,68 h -0.14 c -2.52,4.18 -7.06,6 -11.88,6 -10.66,0 -17.07,-7.92 -17.07,-18.15 0,-10.23 6.84,-18.14 16.71,-18.14 6.48,0 9.94,3 11.74,5.25 h 0.21 V 28.51 A 3.49,3.49 0 0 1 186.56,25 h 5.15 V 73.17 H 187 a 3.49,3.49 0 0 1 -3.49,-3.49 z m -10.29,-1.73 c 6.33,0 10.15,-5 10.15,-10.37 0,-5.37 -3.82,-10.36 -10.15,-10.36 -6.33,0 -10.16,5 -10.16,10.36 0,5.36 3.82,10.35 10.16,10.35 z"
+       id="path24" />
+    <path
+       inkscape:connector-curvature="0"
+       class="cls-2"
+       d="m 221.52,68.41 h -0.22 c -2.44,3.89 -6.48,5.59 -11.09,5.59 -6.4,0 -12.6,-3.53 -12.6,-10.37 0,-11.23 13.11,-12 21.75,-12 h 2.16 V 50.7 c 0,-4.25 -3.31,-6.48 -7.92,-6.48 a 13.71,13.71 0 0 0 -7.11,2 3.45,3.45 0 0 1 -4.24,-0.53 l -2.4,-2.41 c 3.81,-3.88 9.21,-5.54 14.68,-5.54 14.77,0 14.77,10.66 14.77,15.55 V 73.17 H 225 a 3.48,3.48 0 0 1 -3.48,-3.49 z M 221,57.68 h -1.8 c -4.76,0 -13,0.36 -13,5.33 0,3.17 3.24,4.54 6.05,4.54 5.91,0 8.72,-3.1 8.72,-7.92 z"
+       id="path26" />
+    <path
+       inkscape:connector-curvature="0"
+       class="cls-2"
+       d="m 240.48,25 h 5.16 v 18 h 0.21 c 1.8,-2.23 5.26,-5.25 11.74,-5.25 9.87,0 16.71,7.92 16.71,18.14 0,10.22 -6.41,18.11 -17.07,18.11 -4.82,0 -9.36,-1.87 -11.88,-6 h -0.14 v 5.19 h -4.73 A 3.48,3.48 0 0 1 237,69.68 V 28.51 A 3.48,3.48 0 0 1 240.48,25 Z m 15,20.5 c -6.33,0 -10.15,5 -10.15,10.36 0,5.36 3.82,10.37 10.15,10.37 6.33,0 10.15,-5 10.15,-10.37 0,-5.37 -3.79,-10.34 -10.13,-10.34 z"
+       id="path28" />
+    <path
+       inkscape:connector-curvature="0"
+       class="cls-2"
+       d="m 284.26,38.6 h 5.15 v 5.48 h 0.15 a 11.09,11.09 0 0 1 13.32,-5.84 V 46.6 A 17.35,17.35 0 0 0 298.7,46 c -8.13,0 -9.29,6.84 -9.29,8.71 v 18.46 h -5.15 a 3.49,3.49 0 0 1 -3.49,-3.49 V 42.09 a 3.49,3.49 0 0 1 3.49,-3.49 z"
+       id="path30" />
+    <path
+       inkscape:connector-curvature="0"
+       class="cls-2"
+       d="m 328.8,68.41 h -0.22 C 326.13,72.3 322.1,74 317.49,74 c -6.41,0 -12.6,-3.53 -12.6,-10.37 0,-11.23 13.11,-12 21.75,-12 h 2.16 V 50.7 c 0,-4.25 -3.31,-6.48 -7.92,-6.48 a 13.68,13.68 0 0 0 -7.11,2 3.45,3.45 0 0 1 -4.24,-0.53 l -2.41,-2.41 c 3.82,-3.88 9.22,-5.54 14.69,-5.54 14.76,0 14.76,10.66 14.76,15.55 v 19.88 h -4.29 a 3.48,3.48 0 0 1 -3.48,-3.49 z m -0.51,-10.73 h -1.8 c -4.75,0 -13,0.36 -13,5.33 0,3.17 3.24,4.54 6.05,4.54 5.91,0 8.71,-3.1 8.71,-7.92 z"
+       id="path32" />
+  </g>
+</svg>
