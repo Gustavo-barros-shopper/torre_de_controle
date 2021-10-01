@@ -217,7 +217,7 @@ const ThemeCustomizer = () => {
                                 <div className="container-fluid bd-example-row">
                                     <div className="row">
                                         <p>To replace our design with your desired theme. Please do configuration as mention </p>
-                                        <p> <b> Path : data > customizer > config.js </b> </p>
+                                        <p> <b> Path : data `{'>'}` customizer `{'>'}` config.js </b> </p>
                                     </div>
                                     <pre>
                                         <code>

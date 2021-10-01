@@ -32,7 +32,52 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.ReactTable.-highlight .rt-tbody .rt-tr:not(.-padRow):hover {
+  background-color: gray !important;
+}
+
+.ReactTable .-pagination .-btn {
+  background-color: #002d62 !important;
+  color: white;
+  font-weight: bold;
+}
+
+.ReactTable .rt-thead {
+  overflow-y: scroll;
+}
+
+.ReactTable .rt-thead::-webkit-scrollbar {
+  background-color: rgb(249 249 249);
+}
+
+.ReactTable .rt-td {
+  overflow: visible;
+}
+
+.ReactTable div[role=rowgroup]{
+  max-height: 30px !important;
+}
+
+.ReactTable div.rt-thead.-header, .ReactTable div.rt-thead.-header .rt-tr{
+  max-height: 30px !important;
+  text-align: center;
+}
+
+.ReactTable div.rt-thead.-header {
+  overflow: hidden;
+}
+
+input[type="checkbox"]:focus {
+  outline: 2px solid #002D62;
+}
+
+.ReactTable div.rt-thead.-header .rt-tr div.rt-th{
+  padding: 10px !important;
+  font-weight: bold;
 }

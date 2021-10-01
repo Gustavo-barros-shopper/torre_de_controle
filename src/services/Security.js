@@ -19,7 +19,7 @@ export const checkLoginMode = function () {
 
 export const handleLoginMode = function (newLoginMode) {    
     let actualLoginMode = checkLoginMode()
-    // let actualLoginMode = "google"
+    
     if(actualLoginMode != newLoginMode) {
         if (newLoginMode === "google") {
             checkoutClient.handleLogout();

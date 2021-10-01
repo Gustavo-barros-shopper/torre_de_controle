@@ -1,6 +1,6 @@
 import React, { Fragment , useState  } from 'react';
 import rocket from '../../assets/images/rocket.gif';
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 const LoaderWrapper = styled.div`
     display: flex;
@@ -16,7 +16,11 @@ const LoaderImage = styled.div`
     }
 `
 
-const Loader = ({show}) => {
+interface Props {
+    show: boolean
+}
+
+export default ({show} : Props) => {
     return (
         <Fragment>
             <LoaderWrapper className={`loader-wrapper ${show ? '' : 'loderhide'}`} >
@@ -30,5 +34,3 @@ const Loader = ({show}) => {
         </Fragment>
     );
 };
-
-export default Loader;

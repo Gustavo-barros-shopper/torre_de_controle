@@ -1,28 +1,29 @@
-import React, { useState, useEffect } from 'react'
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom'
-import { ScrollContext } from 'react-router-scroll-4'
-import Loader from './components/layout/Loader'
-import * as serviceWorker from './serviceWorker'
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
+import { ScrollContext } from 'react-router-scroll-4';
+import Loader from './components/layout/Loader';
+import * as serviceWorker from './serviceWorker';
+import './App.css';
 
-import UnlockPage from './pages/UnlockPage'
+import UnlockPage from './pages/UnlockPage';
 
-import './index.scss'
+import './index.scss';
 
-import { IntlProvider } from 'react-intl'
-import { registerLocale, setDefaultLocale } from 'react-datepicker'
+import { IntlProvider } from 'react-intl';
+import { registerLocale, setDefaultLocale } from 'react-datepicker';
 
-import TEMPLATE_MESSAGES from './i18n/messages.json'
-import APP_MESSAGES from './i18n/messages'
-import { LANGUAGES } from './i18n/languages'
-import ptBR from 'date-fns/locale/pt-BR'
-import Routes from './routes/Routes'
+import TEMPLATE_MESSAGES from './i18n/messages.json';
+import APP_MESSAGES from './i18n/messages.json';
+import { LANGUAGES } from './i18n/languages';
+import ptBR from 'date-fns/locale/pt-BR';
+import Routes from './routes/Routes';
 
 
-import Login from './pages/Login/Login'
+import Login from './pages/Login/Login';
 
-import { ssoClient, checkoutClient } from './services/SigninSetup'
+import { ssoClient, checkoutClient } from './services/SigninSetup';
 
-import { checkLoginByPass, handleLoginMode, setLoginMode } from './services/Security'
+import { checkLoginByPass, handleLoginMode, setLoginMode } from './services/Security';
 
 const MESSAGES = {
   'pt-BR': { ...TEMPLATE_MESSAGES['pt-BR'], ...APP_MESSAGES['pt-BR'] }
@@ -31,7 +32,7 @@ const MESSAGES = {
 registerLocale('pt-BR', ptBR)
 setDefaultLocale('pt-BR')
 
-function Root() {
+const Root = () => {
 
   const [currentLocale, setCurrentLocale] = useState(LANGUAGES[LANGUAGES.default].code)
   const [loader, setLoader] = useState(true)
@@ -128,7 +129,7 @@ function Root() {
       setLoader(false)
     }
     else {
-      onLogout()
+      onLogout(null)
     }
   }
 

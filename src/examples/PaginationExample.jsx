@@ -164,7 +164,7 @@ export default () => {
                         <strong>paginationConfig</strong> - object returned from 
                         paginationData function
                     </li>
-                    <li><strong>changePage</strong> - (selectedPage) => {`{}`}</li>
+                    <li><strong>changePage</strong> - (selectedPage) =`{'>'}` {`{}`}</li>
                 </ul>
                 <br />
                 <Pagination paginationConfig={data1} changePage={changePage1} />
