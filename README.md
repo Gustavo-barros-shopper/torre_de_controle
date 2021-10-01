@@ -5,6 +5,10 @@ It is necessary to create an `.env` file and set the following environment varia
 | Variable | Required | Description |
 |----------|:--------:|-------------|
 | `REACT_APP_URL_API` | true | URL to API |
+| `REACT_APP_GOOGLE_CLIENT_ID` | true | Google auth client Id |
+| `REACT_APP_SSO_NAMESPACE` | true | SSO application namespace |
+| `REACT_APP_SSO_SECRET` | true | Secret SSO namespace |
+| `REACT_APP_SSO_API_URL` | true | URL to SSO |
 
 ## Available Scripts
 
