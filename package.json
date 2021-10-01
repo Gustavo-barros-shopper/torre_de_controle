@@ -8,6 +8,7 @@
     "@fullcalendar/interaction": "^4.3.0",
     "@fullcalendar/react": "^4.3.0",
     "@fullcalendar/timegrid": "^4.3.0",
+    "@hookform/resolvers": "^2.8.1",
     "@lourenci/react-kanban": "^0.14.0",
     "axios": "^0.21.4",
     "body-scroll-lock": "^2.6.4",
@@ -46,7 +47,7 @@
     "react-files": "^2.4.8",
     "react-google-charts": "^3.0.15",
     "react-google-login": "^5.1.2",
-    "react-hook-form": "^3.28.7",
+    "react-hook-form": "^7.16.2",
     "react-image-crop": "^8.3.1",
     "react-image-lightbox": "^5.1.0",
     "react-images-upload": "^1.2.7",
@@ -68,6 +69,7 @@
     "react-router-scroll-4": "^1.0.0-beta.2",
     "react-scripts": "^3.3.0",
     "react-scrollbar": "^0.5.6",
+    "react-select": "^5.0.0",
     "react-slick": "^0.25.2",
     "react-sparklines": "^1.7.0",
     "react-step-wizard": "^5.3.0",
@@ -94,7 +96,7 @@
     "uuid": "^7.0.3",
     "weather-icons-react": "^1.2.0",
     "world-map-geojson": "^1.0.2",
-    "yup": "^0.28.3"
+    "yup": "^0.32.9"
   },
   "scripts": {
     "start": "react-scripts start",

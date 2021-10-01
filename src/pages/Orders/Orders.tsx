@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import ReactTable from 'react-table';
 import 'react-table/react-table.css';
+import TableFilters from './components/TableFilters';
 import { Order } from './OrderTypes';
 
 var aux : Array<Order> = [
@@ -166,18 +167,12 @@ export default () => {
         setCheckAll(!checkAll)
     }
 
-    // const searchOrder = (
-    //     orderCodes,
-    //     deliveryDate,
-    //     store
-    // ) => {
+    const searchOrder = (
+        orderCodes : Array<string>,
+        deliveryDate : string,
+        store : number
+    ) => {
 
-    // }
-
-    const teste = () => {
-        console.log("orders: ", orders)
-        console.log("ordersRef.current: ", ordersRef.current)
-        console.log("ordersRef.current checked: ", ordersRef.current.filter((order : Order) => order.isChecked == true))
     }
 
     useEffect(() => {
@@ -201,9 +196,7 @@ export default () => {
 
     return (
         <>
-            <div>
-
-            </div>
+            <TableFilters/>
             
             <ReactTable
                 style={{ fontSize: "0.8em", width: "calc(100%-250px)", maxWidth: "80%", height: "90%", overflowX: "scroll" }}
@@ -304,10 +297,11 @@ export default () => {
                 resolveData={data => data.map(row => row)}
                 pageSize={orders.length}
                 className="-striped -highlight -fineLine"
+                noDataText={"Sem registros"}
                 showPagination={false}
             />
 
-            <button onClick={teste}>Testa Ai</button>
+            {/* <button onClick={teste}>Testa Ai</button> */}
         </>
     )
 }

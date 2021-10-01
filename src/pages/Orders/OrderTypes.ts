@@ -16,3 +16,9 @@ export interface Order {
     isChecked: boolean,
     select: any
 }
+
+export interface OrderFilters {
+    orderCodes: Array<string>,
+    deliveryDate: string,
+    store: number
+}

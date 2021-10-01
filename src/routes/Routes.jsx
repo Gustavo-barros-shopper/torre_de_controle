@@ -19,7 +19,7 @@ function Routes({user, onLock, onLogout}) {
         <>
             <div className="page-wrapper">
                 <div className="page-body-wrapper without-header">
-                    <div className="page-body" style={{ marginTop: '80px', padding: '0 50px 0 0' }}>
+                    <div className="page-body" style={{padding: '0 50px 0 0' }}>
                         <Header
                             showSearchBox={false}
                             showMaximize={false}

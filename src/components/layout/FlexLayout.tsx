@@ -1,13 +1,13 @@
-import React, { CSSProperties, PropsWithChildren } from "react";
+import React, { CSSProperties, HtmlHTMLAttributes, PropsWithChildren } from "react";
 
 interface Props {
-    children: PropsWithChildren<{}>,
-    direction: string,
-    justify: string,
-    reverse: boolean,
-    align: string,
-    style: CSSProperties,
-    className: string
+    children: any,
+    direction?: string,
+    justify?: string,
+    reverse?: boolean,
+    align?: string,
+    style?: CSSProperties,
+    className?: string
 }
 
 export default ({
